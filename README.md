@@ -4,7 +4,7 @@ A repository for tools and documentation for learning string encoding & unicode 
 
 Commonly used languages are JavaScript, HTML, & PHP for WAF bypass. However, encoding can also assist your efforts as a red team operator when attempting to bypass file upload restrictions.
 
-[CyberChef - A versatile web application used to obfuscate or deobfuscate strings. Can be ran offline and used for other scenarios as well.](https://gchq.github.io/CyberChef/)
+[CyberChef](https://gchq.github.io/CyberChef/) - A versatile web application used to obfuscate or deobfuscate strings. Can be ran offline and used for other scenarios as well.
 
 [Dencode](https://dencode.com/en/string) - An online string encoder. quickly visualize various methods of encoding and unicode escaping inside the tool for a high-level overview.
 
