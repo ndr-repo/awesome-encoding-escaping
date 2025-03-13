@@ -6,7 +6,7 @@ Commonly used languages are JavaScript, HTML, & PHP for WAF bypass. However, enc
 
 [CyberChef](https://gchq.github.io/CyberChef/) - A versatile web application used to obfuscate or deobfuscate strings. Can be ran offline and used for other scenarios as well. Includes various code beautifiers, decoders, and unescaping tools.
 
-[Dencode](https://dencode.com/en/string) - An online string encoder. quickly visualize various methods of encoding and unicode escaping inside the tool for a high-level overview.
+[Dencode](https://dencode.com/en/string) - An online string encoder/decoder. Quickly visualize various methods of encoding and unicode escaping inside the tool for a high-level overview.
 
 [Dencode - Unicode Escape](https://dencode.com/en/string/unicode-escape) - An online unicode escaping tool, quickly visualize escaped payloads for character memorization or use.
 
