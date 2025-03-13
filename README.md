@@ -14,7 +14,7 @@ Commonly used languages are JavaScript, HTML, & PHP for WAF bypass. However, enc
 
 [HTML URL Encoding - GeeksforGeeks](https://www.geeksforgeeks.org/html-url-encoding/) - An alternate reference for HRML URL encoding
 
-[Gooogle Admin Toolbox - Encode/Decode](https://toolbox.googleapps.com/apps/encode_decode/) - Offers endoding and decoding for SAML, as well as a few code beautifiers. 
+[Gooogle Admin Toolbox - Encode/Decode](https://toolbox.googleapps.com/apps/encode_decode/) - Offers encoding and decoding for SAML, as well as a few code beautifiers. 
 
 [OWASP XSS Filter Evasion Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html) - Contains working examples of encoded and escaped JavaScript payloads.
 
