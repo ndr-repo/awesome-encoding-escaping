@@ -6,10 +6,8 @@ Commonly used with programming languages like JavaScript, PHP, & HTML for WAF by
 
 ## Encoding methods & examples
 
-**HTML Encoding**
+### HTML Encoding
 - The most basic and common form of encoding, in my opinion. You can find this used for URLs in your browser.
-
-    **Example**:
 
     ASCII to HTML-encoded:
 
