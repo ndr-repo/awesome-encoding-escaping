@@ -23,7 +23,7 @@ Commonly used with programming languages like JavaScript, PHP, & HTML for WAF by
     
         HTML-encoded - %2E%2E%2F%2E%2E%2F
 
-
+For more on file path traversal, see [PortSwigger - File Path Traversal](https://portswigger.net/web-security/file-path-traversal).
 
 ## Resources
 
