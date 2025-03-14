@@ -4,7 +4,7 @@ A repository for tools and documentation for learning string encoding & unicode 
 
 Commonly used with programming languages like JavaScript, PHP, & HTML for WAF bypass. Encoding can also assist in your success as a red team operator when attempting to bypass file upload restrictions.
 
-## Common encoding methods & examples
+## Encoding methods & examples
 
 **HTML Encoding**
 - The most basic and common form of encoding, in my opinion. You can find this used for URLs in your browser.
