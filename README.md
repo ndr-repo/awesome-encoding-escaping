@@ -2,7 +2,28 @@
 
 A repository for tools and documentation for learning string encoding & unicode escaping. An effective obfuscation method for writing offensive security testing payloads for web applications. 
 
-Commonly used languages are JavaScript, HTML, & PHP for WAF bypass. However, encoding can also assist your efforts as a red team operator when attempting to bypass file upload restrictions.
+Commonly used with programming languages like JavaScript, PHP, & HTML for WAF bypass. Encoding can also assist in your success as a red team operator when attempting to bypass file upload restrictions.
+
+## Common encoding methods & examples
+
+**HTML Encoding**
+- The most basic and common form of encoding, in my opinion. You can find this used for URLs in your browser.
+
+    **Example**:
+
+    ASCII to HTML-encoded:
+
+        ASCII - /
+    
+        HTML-encoded - %2F
+
+    Pentest use case - Directory traversal:
+
+        ASCII - ../../
+    
+        HTML-encoded - %2E%2E%2F%2E%2E%2F
+
+## Resources
 
 [CyberChef](https://gchq.github.io/CyberChef/) - A versatile web application used to obfuscate or deobfuscate strings. Can be ran offline and used for other scenarios as well. Includes various code beautifiers, decoders, and unescaping tools.
 
