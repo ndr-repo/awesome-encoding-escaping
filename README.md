@@ -41,4 +41,4 @@ For more on file path traversal, see [PortSwigger - File Path Traversal](https:/
 
 [OWASP XSS Filter Evasion Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html) - Contains working examples of encoded and escaped JavaScript payloads.
 
-[Portswigger XSS Cheat Sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) - Not directly encoding related, often need a bit of encoding or escaping for production use in the modern-day.
+[PortSwigger - XSS Cheat Sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) - Not directly encoding related, often need a bit of encoding or escaping for production use in the modern-day.
