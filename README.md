@@ -33,11 +33,11 @@ For more on file path traversal, see [PortSwigger - File Path Traversal](https:/
 
 [Obsidian Forensics - Unfurl](https://github.com/obsidianforensics/unfurl) - One of my favorite open-source tools of all time. Unfurl is a CLI and GUI tool used to decode URLs and other string inputs. Open-souce and free to install locally. Try it online at [https://dfir.blog/unfurl](https://dfir.blog/unfurl).
 
-[Google Admin Toolbox - Encode/Decode](https://toolbox.googleapps.com/apps/encode_decode/) - Offers encoding and decoding for SAML, as well as a few code beautifiers. 
-
 [Dencode](https://dencode.com/en/string) - An online string encoder/decoder. Quickly visualize various methods of encoding and unicode escaping inside the tool for a high-level overview.
 
 [Dencode - Unicode Escape](https://dencode.com/en/string/unicode-escape) - An online unicode escaping tool, quickly visualize escaped string for character memorization or payload use.
+
+[Google Admin Toolbox - Encode/Decode](https://toolbox.googleapps.com/apps/encode_decode/) - Offers encoding and decoding for SAML, as well as a few code beautifiers. 
 
 ### Documentation
 
