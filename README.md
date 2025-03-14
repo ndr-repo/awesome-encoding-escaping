@@ -17,11 +17,13 @@ Commonly used with programming languages like JavaScript, PHP, & HTML for WAF by
     
         HTML-encoded - %2F
 
-    Pentest use case - Directory traversal:
+    Common pentesting use case - File path traversal:
 
         ASCII - ../../
     
         HTML-encoded - %2E%2E%2F%2E%2E%2F
+
+
 
 ## Resources
 
