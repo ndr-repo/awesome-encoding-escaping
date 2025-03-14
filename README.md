@@ -27,17 +27,23 @@ For more on file path traversal, see [PortSwigger - File Path Traversal](https:/
 
 ## Resources
 
+### Tools
+
 [CyberChef](https://gchq.github.io/CyberChef/) - A versatile web application used to obfuscate or deobfuscate strings. Can be ran offline and used for other scenarios as well. Includes various code beautifiers, decoders, and unescaping tools.
+
+[Obsidian Forensics - Unfurl](https://github.com/obsidianforensics/unfurl) - One of my favorite open-source tools of all time. Unfurl is a CLI and GUI tool used to decode URLs and other string inputs. Open-souce and free to install locally. Try it online at [https://dfir.blog/unfurl](https://dfir.blog/unfurl).
+
+[Gooogle Admin Toolbox - Encode/Decode](https://toolbox.googleapps.com/apps/encode_decode/) - Offers encoding and decoding for SAML, as well as a few code beautifiers. 
 
 [Dencode](https://dencode.com/en/string) - An online string encoder/decoder. Quickly visualize various methods of encoding and unicode escaping inside the tool for a high-level overview.
 
 [Dencode - Unicode Escape](https://dencode.com/en/string/unicode-escape) - An online unicode escaping tool, quickly visualize escaped string for character memorization or payload use.
 
+### Documentation
+
 [W3Schools - HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.ASP) - A reference for standard HTML URL encoding and their cooresponding ASCII character values.
 
 [HTML URL Encoding - GeeksforGeeks](https://www.geeksforgeeks.org/html-url-encoding/) - An alternate reference for HRML URL encoding
-
-[Gooogle Admin Toolbox - Encode/Decode](https://toolbox.googleapps.com/apps/encode_decode/) - Offers encoding and decoding for SAML, as well as a few code beautifiers. 
 
 [OWASP XSS Filter Evasion Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html) - Contains working examples of encoded and escaped JavaScript payloads.
 
