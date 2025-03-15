@@ -13,15 +13,29 @@ Commonly used with programming languages like JavaScript, PHP, & HTML for WAF by
 
         ASCII - /
     
-        HTML-encoded - %2F
+        HTML encoded - %2F
 
     Common pentesting use case - File path traversal:
 
         ASCII - ../../
     
-        HTML-encoded - %2E%2E%2F%2E%2E%2F
+        HTML encoded - %2E%2E%2F%2E%2E%2F
 
 For more on file path traversal, see [PortSwigger - File Path Traversal](https://portswigger.net/web-security/file-path-traversal).
+
+### Unicode Escaping - Example 1
+
+    ASCII to HTML-encoded:
+
+        ASCII - /
+    
+        Unicode escaped - \u002F
+
+    Common pentesting use case - File path traversal:
+
+        ASCII - ../../
+    
+        Unicode escaped - \u002E\u002E\u002F\u002E\u002E\u002F
 
 ## Resources
 
@@ -45,4 +59,8 @@ For more on file path traversal, see [PortSwigger - File Path Traversal](https:/
 
 [OWASP XSS Filter Evasion Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XSS_Filter_Evasion_Cheat_Sheet.html) - Contains working examples of encoded and escaped JavaScript payloads.
 
+[RFC 5137 - ASCII Escaping of Unicode Characters](https://www.rfc-editor.org/rfc/rfc5137)
+
 [PortSwigger - XSS Cheat Sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet) - Not directly encoding related, often need a bit of encoding or escaping for production use in the modern-day.
+
+
