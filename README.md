@@ -31,7 +31,7 @@ For more on file path traversal, see [PortSwigger - File Path Traversal](https:/
     
         Unicode escaped - \u002F
 
-    Common pentesting use case - File path traversal:
+Common pentesting use case - File path traversal:
 
         ASCII - ../../
     
