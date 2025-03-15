@@ -9,13 +9,13 @@ Commonly used with programming languages like JavaScript, PHP, & HTML for WAF by
 ### HTML Encoding
 - The most basic and common form of encoding, in my opinion. You can find this used for URLs in your browser.
 
-    ASCII to HTML-encoded:
+  ASCII to HTML-encoded:
 
         ASCII - /
     
         HTML encoded - %2F
 
-    Common pentesting use case - File path traversal:
+  Common pentesting use case - File path traversal:
 
         ASCII - ../../
     
