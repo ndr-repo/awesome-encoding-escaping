@@ -25,7 +25,7 @@ For more on file path traversal, see [PortSwigger - File Path Traversal](https:/
 
 ### Unicode Escaping - Example 1
 
-    ASCII to HTML-encoded:
+ASCII to HTML-encoded:
 
         ASCII - /
     
