@@ -31,11 +31,11 @@ ASCII to HTML-encoded:
     
         Unicode escaped - \u002F
 
-Common pentesting use case - File path traversal:
+Common pentesting use case - XSS
 
         ASCII - ../../
     
-        Unicode escaped - \u002E\u002E\u002F\u002E\u002E\u002F
+        Unicode escaped - alert\u0028document\u002Ecookie\u0029
 
 ## Resources
 
