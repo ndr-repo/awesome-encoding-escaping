@@ -27,15 +27,19 @@ For more on file path traversal, see [PortSwigger - File Path Traversal](https:/
 
 ASCII to HTML-encoded:
 
+```
         ASCII - /
     
         Unicode escaped - \u002F
+```
 
 Common pentesting use case - XSS
 
-        ASCII - ../../
+```
+        ASCII - alert(document.cookie)
     
         Unicode escaped - alert\u0028document\u002Ecookie\u0029
+```
 
 ## Resources
 
