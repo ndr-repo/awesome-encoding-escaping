@@ -7,20 +7,24 @@ Commonly used with programming languages like JavaScript, PHP, & HTML for WAF by
 ## Encoding methods & examples
 
 ### HTML Encoding
+
 - The most basic and common form of encoding, in my opinion. You can find this used for URLs in your browser.
 
   ASCII to HTML-encoded:
-
+```
         ASCII - /
-    
+```
+```    
         HTML encoded - %2F
-
+```
   Common pentesting use case - File path traversal:
-
+ ```
         ASCII - ../../
-    
-        HTML encoded - %2E%2E%2F%2E%2E%2F
+  ```
 
+  ``` 
+        HTML encoded - %2E%2E%2F%2E%2E%2F
+   ```
 For more on file path traversal, see [PortSwigger - File Path Traversal](https://portswigger.net/web-security/file-path-traversal).
 
 ### Unicode Escaping 
@@ -29,17 +33,25 @@ ASCII to HTML-encoded:
 
 ```
         ASCII - /
-    
+```
+
+```    
         Unicode escaped - \u002F
 ```
 
-Common pentesting use case - XSS
+Common pentesting use case - XSS:
 
 ```
-        ASCII - alert(document.cookie)
-    
-        Unicode escaped - alert\u0028document\u002Ecookie\u0029
+   ASCII - alert(document.cookie)
 ```
+```
+   Unicode escaped - alert\u0028document\u002Ecookie\u0029
+```
+### Base64 Encoding
+
+Red team use case:
+
+Obfuscation of payloads for server-side RCE and post-exploitation frameworks
 
 ## Resources
 
